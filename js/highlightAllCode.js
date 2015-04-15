@@ -1,4 +1,3 @@
-
 function highlightAllCode() {
 	var pres = document.body.getElementsByTagName("pre");
 	for (var i = 0; i < pres.length; i++) {
@@ -8,19 +7,3 @@ function highlightAllCode() {
 			highlightCode(pre, languages[lang]);
 	}
 }
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-"highlightAllCode" 9L, 297C                                   1,1           All
-
