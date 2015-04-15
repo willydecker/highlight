@@ -1,0 +1,33 @@
+<html>
+<head>
+<title>
+Javascript Syntax Highlighter
+</title>
+<script type="text/javascript" src="js/highlightCode.js"></script>
+<script type="text/javascript" src="js/highlightAllCode.js"></script>
+
+<script type="text/javascript">
+var languages = {
+  javascript: /\b(function|return|var)\b/g /* ... etc */
+};
+
+</script>
+</head>
+<body>
+<p>Here it is, the identity function:</p>
+<pre data-language="javascript">
+function id(x) { return x; }
+</pre>
+
+<pre data-language="python">
+int main()
+{
+	int    iValue;  // An integer variable
+	float  fValue;  // A floating point variable
+	char   cValue;  // A character variable
+}
+</pre>
+
+<script>highlightAllCode();</script>
+</body>
+</html>
