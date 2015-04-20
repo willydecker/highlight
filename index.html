@@ -8,6 +8,7 @@ Javascript Syntax Highlighter
 
 <script type="text/javascript">
 var languages = {
+  cplusplus: /\b(int|main|float|char)\b/g
   javascript: /\b(function|return|var)\b/g /* ... etc */
 };
 
@@ -20,7 +21,7 @@ function id(x) { return x; }
 </pre>
 
 <p>This is test for Sample C++ code</p>
-<pre data-language="c++">
+<pre data-language="cplusplus">
 int main()
 {
 	int    iValue;  // An integer variable
